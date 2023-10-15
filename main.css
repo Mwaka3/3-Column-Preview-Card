@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca:wght@400;700&family=Poppins:wght@200;300&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca:wght@400;700&family=Poppins:wght@200;300&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.attribution{ 
+    font-size: 11px; text-align: center;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%);
+}
+body{
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    color:  hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 10em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sedans, .suvs, .luxury{
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sedans{
+    background: hsl(31, 77%, 52%);
+}
+.sedans button{
+    margin-top: -13px;
+}
+.suvs{
+    background: hsl(184, 100%, 22%);
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+}
+.title{
+    margin-bottom: 30px;
+}
+button{
+    margin-top: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2em;
+    padding: .7rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    background-color: hsl(0, 0%, 95%);
+}
+button:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%)
+}
+.icon{
+    margin-bottom: 30px;
+}
+.info{
+    margin-bottom: 5em;
+    line-height: 1.7em;
+}
+.attribution{
+    padding-bottom: 30px;
+}
+@media screen and (max-width :375px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .sedans, .suvs, .luxury {
+        height: 40%;
+        padding: 1em;
+    }
+    .info, .icon{
+        margin-bottom: 1em;
+    }
+}
