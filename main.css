@@ -40,16 +40,13 @@ p{
     overflow: hidden;
 }
 .sedans, .suvs, .luxury{
-    padding: 5em;
+    padding: 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .sedans{
     background: hsl(31, 77%, 52%);
-}
-.sedans button{
-    margin-top: -13px;
 }
 .suvs{
     background: hsl(184, 100%, 22%);
@@ -73,7 +70,7 @@ button{
 }
 button:hover{
     background-color: transparent;
-    color:hsl(0, 0%, 95%)
+    color:hsl(0, 0%, 95%);
 }
 .icon{
     margin-bottom: 30px;
