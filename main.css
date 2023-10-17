@@ -15,14 +15,13 @@
 body{
     font-size: 15px;
     background: hsl(0, 0%, 95%);
-    width: 100%;
-    height: 100vh;
 }
-h1{
+h2{
     color:  hsl(0, 0%, 95%);
     font-weight: 700;
     font-size: 2em;
     font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
 }
 p{
     color: hsla(0, 0%, 100%, 0.75);
@@ -30,7 +29,7 @@ p{
 main{
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
 }
 .container{
     display: flex;
@@ -38,7 +37,6 @@ main{
     width: 60%;
     margin: 10em;
     border-radius: 10px;
-    overflow: hidden;
 }
 .sedans, .suvs, .luxury{
     padding: 2em;
@@ -59,7 +57,7 @@ main{
     margin-bottom: 30px;
 }
 button{
-    margin-top: 10px;
+    margin-top: auto;
     border: 2px solid hsl(0, 0%, 95%);
     border-radius: 2em;
     padding: .7rem 1rem;
